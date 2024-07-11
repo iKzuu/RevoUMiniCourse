@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background: url("https://motionbgs.com/media/1369/gundam-witch-mercury.jpg");
+    background-size: cover;
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    border: 5px solid rgb(255, 255, 255, 0.3);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+}
+
+.t-row {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    gap: 5px;
+    margin: 5px;
+    height: 50px;
+}
+
+button {
+    background-color: bisque;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255, 0.3);
+}
+
+.ipt {
+    background-color: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    border-radius: 5px;
+    display: grid;
+    grid-column: 1 / 4 span;
+}
+
+.red {
+    color: white;
+    background-color: red;
+    display: grid;
+    grid-column: 1 / 2 span;
+    align-items: center;
+}
+
+.blue {
+    color: white;
+    background-color: blue;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    color: white;
+    background-color: green;
+}
+
+.black {
+    color: white;
+    background-color: black;
+}
