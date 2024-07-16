@@ -9,70 +9,39 @@
 <body>
     <div class="container">
         <div class="t-row">
-            <input class="ipt" type="text" name="display">
+            <input id="display" class="ipt" type="text" name="display">
         </div>
         <div class="t-row">
-            <button class="red">AC</button>
-            <button class="blue">C</button>
-            <button class="orange">*</button>
+            <button id="ac" class="red" value="AC" onclick="btnClick(this.innerText)">AC</button>
+            <button id="ce" class="blue" value="C" onclick="btnClick(this.innerText)">C</button>
+            <button id="times" class="orange" value="*" onclick="btnClick(this.innerText)">*</button>
         </div>
         <div class="t-row">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button class="orange">/</button>
+            <button id="num7" value="7" onclick="btnClick(this.innerText)">7</button>
+            <button id="num8" value="8" onclick="btnClick(this.innerText)">8</button>
+            <button id="num9" value="9" onclick="btnClick(this.innerText)">9</button>
+            <button id="slash" class="orange" value="/" onclick="btnClick(this.innerText)">/</button>
         </div>
         <div class="t-row">
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button class="orange">+</button>
+            <button id="num4" value="4" onclick="btnClick(this.innerText)">4</button>
+            <button id="num5" value="5" onclick="btnClick(this.innerText)">5</button>
+            <button id="num6" value="6" onclick="btnClick(this.innerText)">6</button>
+            <button id="plus" class="orange" value="+" onclick="btnClick(this.innerText)">+</button>
         </div>
         <div class="t-row">
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button class="orange">-</button>
+            <button id="num1" value="1" onclick="btnClick(this.innerText)">1</button>
+            <button id="num2" value="2" onclick="btnClick(this.innerText)">2</button>
+            <button id="num3" value="3" onclick="btnClick(this.innerText)">3</button>
+            <button id="minus" value="-" class="orange" onclick="btnClick(this.innerText)">-</button>
         </div>
         <div class="t-row">
-            <button class="black">+-</button>
-            <button>0</button>
-            <button class="black">.</button>
-            <button class="green">=</button>
+            <button id="plus-min" class="black" value="+-" onclick="btnClick(this.innerText)">+-</button>
+            <button id="zero" value="0" onclick="btnClick(this.innerText)">0</button>
+            <button id="point" value="." class="black" onclick="btnClick(this.innerText)">.</button>
+            <button id="equals" value="=" class="green" onclick="btnClick(this.innerText)">=</button>
         </div>
     </div>
+
+    <script src="/new/calculator.js"></script>
 </body>
 </html>
-
-    <!-- <table>
-        <tr>
-            <th colspan="4">
-                <input>
-            </th>
-        </tr>
-        <tr>
-            <td colspan="2">
-                <button>AC</button>
-            </td>
-            <td>
-                <button>C</button>
-            </td>
-            <td>
-                <button>*</button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button>7</button>
-            </td>
-            <td>
-                <button>8</button>
-            </td>
-            <td>
-                <button>9</button>
-            </td>
-            <td>
-                <button>/</button>
-            </td>
-        </tr>
-    </table> -->

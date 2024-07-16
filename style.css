@@ -39,6 +39,8 @@ button:hover {
 }
 
 .ipt {
+    text-align: end;
+    font-size: 25px;
     background-color: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(20px);
     border-radius: 5px;
